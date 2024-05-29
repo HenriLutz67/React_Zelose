@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(49, 49, 49)); /* Dégradé de gauche à droite */
+
 }
 
 code {

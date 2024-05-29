@@ -1,0 +1,15 @@
+@import url('./variables.css');
+
+.zelose-banner {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(216, 213, 208);
+    display: flex;
+    height: var(--hauteur-banniere);
+    
+    /*box-sizing: border-box;*/
+    /*position: relative;*/
+    /*text-align: left;*/
+    /*z-index: 3000000;*/
+
+}

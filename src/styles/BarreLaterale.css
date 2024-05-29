@@ -1,0 +1,23 @@
+@import url('./variables.css');
+
+.barre-laterale{
+    
+    position: fixed; /* Fixe la barre latérale à la position */
+    width:var(--hauteur-banniere);
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 10px; /* Espacement interne */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+}
+
+.social{
+    display:flex;
+    justify-content: space-between; /* Espacement équitable des éléments */
+}
+.twitch, .youtube, .twitter, .tiktok{
+    padding:8px;
+}
+.twitch:hover, .youtube:hover, .twitter:hover, .tiktok:hover{
+    background-color: rgb(24, 24, 24);
+}
