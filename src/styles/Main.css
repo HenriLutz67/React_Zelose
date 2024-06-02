@@ -1,0 +1,13 @@
+@import url('./variables.css');
+
+.main-container {
+    position: fixed;
+    flex-direction: column;
+    margin-left: var(--largeur-sidebar); /* Décale le conteneur principal vers la droite pour ne pas chevaucher la barre latérale */
+    width: calc(100% - var(--largeur-sidebar)); /* Calcule la largeur disponible après la barre latérale */
+    height: calc(100% - var(--largeur-sidebar));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

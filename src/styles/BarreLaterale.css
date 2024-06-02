@@ -1,23 +1,69 @@
 @import url('./variables.css');
 
-.barre-laterale{
-    
-    position: fixed; /* Fixe la barre latérale à la position */
-    width:var(--hauteur-banniere);
-    background-color: black;
-    color: white;
-    height: 100%;
-    padding: 10px; /* Espacement interne */
-    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+.social {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    z-index: 1; /* Diminue le z-index des boutons */
 }
 
-.social{
-    display:flex;
-    justify-content: space-between; /* Espacement équitable des éléments */
+.barre-laterale {
+    position: fixed;
+    width: var(--hauteur-banniere);
+    background-color: black;
+    color: white;
+    height: calc(100% - var(--hauteur-banniere));
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    z-index: 2; /* Augmente le z-index de la barre latérale */
 }
+.social a{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+}
+
 .twitch, .youtube, .twitter, .tiktok{
-    padding:8px;
+    z-index: 50000;
+}
+
+.twitch-logo{
+    color: #6441a5;
+    font-size: 80px;
+}
+.youtube-logo{
+    color: #c60606;
+    font-size:80px;
+}
+.twitter-logo{
+    color: #00acee;
+    font-size: 80px;
+}
+.tiktok-logo{
+    color: #FFFFFF;
+    font-size: 80px;
 }
 .twitch:hover, .youtube:hover, .twitter:hover, .tiktok:hover{
     background-color: rgb(24, 24, 24);
+
+}
+
+.twitch-logo, .youtube-logo, .twitter-logo, .tiktok-logo {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; /* Transition pour transform et box-shadow */
+    z-index: 50000;
+}
+
+
+
+.twitch:hover .twitch-logo,
+.youtube:hover .youtube-logo,
+.twitter:hover .twitter-logo,
+.tiktok:hover .tiktok-logo {
+    transform: translateY(-20px);
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }

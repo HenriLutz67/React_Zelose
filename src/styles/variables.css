@@ -1,3 +1,4 @@
 :root{
     --hauteur-banniere: 200px;
+    --largeur-sidebar: var(--hauteur-banniere);
 }

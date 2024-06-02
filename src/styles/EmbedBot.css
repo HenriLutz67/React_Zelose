@@ -1,0 +1,58 @@
+.stream-bot-container{
+    display: flex;
+}
+
+.container{
+    
+    background-color: rgb(24, 24, 24);
+    display:flex;
+    border: solid;
+    padding:10px;
+    margin: 5px;
+    margin-top: 15px;
+    
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
+}
+a{
+    text-decoration: none;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.twitch-logo2, .replay-logo, .donation-logo, .replay-yt-logo{
+    font-size: 2.5em;
+}
+.twitch-logo2{
+
+}
+.replay-logo{
+
+}
+.donation-logo{
+
+}
+.replay-yt-logo{
+    
+}
+
+.text{
+    display: flex;
+    font-size: 10px;
+    width: 220px;
+    color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+}
+.text h3{
+    font-size: 2em;
+    margin: 0;
+}
+.text p{
+    font-size: 1.4em;
+    margin: 0;
+}
