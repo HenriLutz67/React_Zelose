@@ -5,7 +5,7 @@ function Embed(){
         <div className="stream">
             <iframe
                 title="Zelose stream"
-                src="https://player.twitch.tv/?channel=zelose_&parent=www.exemple.com"
+                src="https://player.twitch.tv/?channel=zelose_&parent=www.zelose.com"
                 width="1440"
                 height="810"
                 frameBorder="0"
