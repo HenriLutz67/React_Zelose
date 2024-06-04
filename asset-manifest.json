@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React_Zelose/static/css/main.ec0163bb.css",
-    "main.js": "/React_Zelose/static/js/main.0c4ef42e.js",
-    "static/media/logo.png": "/React_Zelose/static/media/logo.21dcb3ab7b9ac25b94a9.png",
-    "static/media/titre.png": "/React_Zelose/static/media/titre.3f5153fdd34df7259bb1.png",
-    "index.html": "/React_Zelose/index.html",
-    "main.ec0163bb.css.map": "/React_Zelose/static/css/main.ec0163bb.css.map",
-    "main.0c4ef42e.js.map": "/React_Zelose/static/js/main.0c4ef42e.js.map"
+    "main.css": "/static/css/main.ec0163bb.css",
+    "main.js": "/static/js/main.43e382c8.js",
+    "static/media/logo.png": "/static/media/logo.21dcb3ab7b9ac25b94a9.png",
+    "static/media/titre.png": "/static/media/titre.3f5153fdd34df7259bb1.png",
+    "index.html": "/index.html",
+    "main.ec0163bb.css.map": "/static/css/main.ec0163bb.css.map",
+    "main.43e382c8.js.map": "/static/js/main.43e382c8.js.map"
   },
   "entrypoints": [
     "static/css/main.ec0163bb.css",
-    "static/js/main.0c4ef42e.js"
+    "static/js/main.43e382c8.js"
   ]
 }
