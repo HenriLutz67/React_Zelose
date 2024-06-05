@@ -15,7 +15,7 @@ function Embed(){
             <iframe
             title="Zelose stream chat"
                 id="chatembed"
-                src="https://player.twitch.tv/embed/zelose/chat?parent=zelose.com"
+                src="https://www.twitch.tv/embed/zelose_/chat?parent=zelose.com"
                 width="350"
                 height="806"
             ></iframe>
