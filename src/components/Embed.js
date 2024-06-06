@@ -5,19 +5,24 @@ function Embed(){
         <div className="stream">
             <iframe
                 title="Zelose stream"
+                className="video"
                 src="https://player.twitch.tv/?channel=zelose_&parent=zelose.com"
-                width="1440"
-                height="810"
+                width="1100"
+                height="619"
                 frameBorder="0"
                 scrolling="no"
                 allowFullScreen={true}
             ></iframe>
             <iframe
-            title="Zelose stream chat"
+                title="Zelose stream chat"
+                className="chat"
                 id="chatembed"
                 src="https://www.twitch.tv/embed/zelose_/chat?parent=zelose.com"
-                width="350"
-                height="806"
+                width="320"
+                height="619"
+                frameBorder="0"
+                scrolling="no"
+                
             ></iframe>
         </div>
     )
@@ -25,7 +30,3 @@ function Embed(){
 }
 
 export default Embed
-/*
-<iframe src="https://player.twitch.tv/?channel=zerator&amp;parent=zerator.com" 
-frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
-*/

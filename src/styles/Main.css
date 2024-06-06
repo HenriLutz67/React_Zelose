@@ -11,3 +11,17 @@
     align-items: center;
     
 }
+
+@media (max-width: 1620px)
+{
+    .main-container {
+
+        margin-left: 0; /* Décale le conteneur principal vers la droite pour ne pas chevaucher la barre latérale */
+        width: 100%; /* Calcule la largeur disponible après la barre latérale */
+    }
+}
+
+
+.hidden {
+    display: none;
+  }

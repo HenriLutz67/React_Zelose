@@ -2,3 +2,28 @@
     display: flex;
     justify-content: center;
 }
+
+
+/* Styles pour grand écrans */
+.stream .video {
+    width: 1100px;
+    height: 619px;
+}
+
+.stream .chatembed {
+    width: 320px;
+    height: 1619px;
+}
+
+/* Styles pour < 1600px */
+@media (max-width: 1620px) {
+    .stream .video {
+        width: 733px;
+        height: 412px;
+    }
+
+    .stream .chat {
+        width: 213px;
+        height: 412px;
+    }
+}

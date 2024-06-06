@@ -28,7 +28,7 @@
     z-index: 500;
 }
 
-.twitch, .youtube, .twitter, .tiktok{
+.twitch, .youtube, .twitter, .tiktok, .discord{
     z-index: 50000;
 }
 
@@ -48,12 +48,16 @@
     color: #FFFFFF;
     font-size: 80px;
 }
-.twitch:hover, .youtube:hover, .twitter:hover, .tiktok:hover{
+.discord-logo{
+    color: #7289da;
+    font-size: 80px;
+}
+.twitch:hover, .youtube:hover, .twitter:hover, .tiktok:hover, .discord:hover{
     background-color: rgb(24, 24, 24);
 
 }
 
-.twitch-logo, .youtube-logo, .twitter-logo, .tiktok-logo {
+.twitch-logo, .youtube-logo, .twitter-logo, .tiktok-logo, .discord-logo{
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; /* Transition pour transform et box-shadow */
     z-index: 50000;
 }
@@ -63,7 +67,13 @@
 .twitch:hover .twitch-logo,
 .youtube:hover .youtube-logo,
 .twitter:hover .twitter-logo,
-.tiktok:hover .tiktok-logo {
+.tiktok:hover .tiktok-logo,
+.discord:hover .discord-logo {
     transform: translateY(-20px);
     box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
+
+
+.hidden {
+    display: none;
+  }
