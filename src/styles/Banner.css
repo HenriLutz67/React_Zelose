@@ -1,5 +1,13 @@
 @import url('./variables.css');
 
+.hidden {
+    display: none;
+}
+
+
+
+
+
 .zelose-banner {
     color: rgb(216, 213, 208);
     display: flex;
@@ -23,6 +31,14 @@
     height: calc(var(--hauteur-banniere) - 30px);
     z-index: 500;
 }
+@media (max-width : 672px)
+{
+    .zelose-titre{
+        height: calc(var(--hauteur-banniere) - 100px);
+        z-index: 500;
+    }
+}
+
 
 .menu-deroulant {
     position: absolute;
@@ -32,13 +48,63 @@
     padding: 20px; /* Exemple de padding, ajustez selon vos besoins */
     width: 35px;
     height: 35px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    z-index: 9999;
+    cursor: pointer;
 }
 
-.hidden {
-    display: none;
-  }
+
+.hiddenMenu {
+    transform: translateY(-20px);
+    transition: 0.2s ease-out; /* Adjust transition duration and easing as needed */
+    opacity: 0;
+    visibility: hidden;
+}
+.activeMenu{
+    transform: translateY(0px);
+    transition: 0.2s ease-out; /* Adjust transition duration and easing as needed */
+    opacity: 1;
+    visibility: visible;
+}
+
+.div-menu-deroulant{
+    position: absolute;
+    top: 115px;
+    left: 20px;
+    background-color: rgb(29, 29, 29);
+    z-index: 999;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.div-menu-deroulant a{
+    padding: 10px;
+}
+
+.img-twitch, .img-youtube, .img-twitter, .img-tiktok, .img-discord{
+    font-size: 50px;
+}
+
+.img-twitch{
+    color: #6441a5;
+}
+.img-youtube{
+    color: #c60606;
+}
+.img-twitter{
+    color: #00acee;
+}
+.img-tiktok{
+    color: #FFFFFF;
+}
+
+.img-discord{
+    color: #7289da;
+}

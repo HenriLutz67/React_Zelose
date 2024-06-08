@@ -11,7 +11,7 @@
 .barre-laterale {
     position: fixed;
     width: var(--hauteur-banniere);
-    background-color: black;
+    background-color: rgb(29, 29, 29);
     color: white;
     height: calc(100% - var(--hauteur-banniere));
     box-sizing: border-box;
@@ -53,7 +53,7 @@
     font-size: 80px;
 }
 .twitch:hover, .youtube:hover, .twitter:hover, .tiktok:hover, .discord:hover{
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(44, 44, 44);
 
 }
 

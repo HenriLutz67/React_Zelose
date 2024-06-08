@@ -4,11 +4,19 @@
     justify-content: center;
 }
 
+@media (max-width: 672px)
+{
+    .stream-bot-container {
+        display: none;
+    }
+}
 .container{
     
     background-color: rgb(24, 24, 24);
     display:flex;
     border: solid;
+    border-color: #551A8B;
+    color:#551A8B;
     padding:10px;
     margin: 5px;
     margin-top: 15px;
