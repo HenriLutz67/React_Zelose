@@ -39,6 +39,15 @@
     }
 }
 
+@media (max-width : 480px)
+{
+    .zelose-titre{
+        height: calc(var(--hauteur-banniere) - 140px);
+        z-index: 500;
+    }
+}
+
+
 
 .menu-deroulant {
     position: absolute;
