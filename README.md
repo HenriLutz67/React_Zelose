@@ -2,4 +2,4 @@
 
 Site web développé sous react pour le streamer Zelose_   
 (lien : www.zelose.com)  
-Développer par Henri Lutz
+Développé par Henri Lutz
